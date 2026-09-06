@@ -68,7 +68,7 @@ init_ps1() {
 main() {
     cd "$MODULE_DIR"
 
-    print_header "Module PS1 installation"
+    print_header "Module PS1 installation\n"
 
     init_ps1
 
