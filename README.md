@@ -1,10 +1,11 @@
 # TUX.ps1
 Simple PS1 prompt for Ubuntu.
 
-> **Note:** Successfully tested on **Ubuntu 20** to **25+**.
+> [!NOTE]
+> Successfully tested on **Ubuntu 18** to **26+**.
 
-<img src="https://raw.githubusercontent.com/Ubikyo/TUX.ps1/refs/heads/main/ressources/ps1.png" width="400">
+<img src="https://raw.githubusercontent.com/ubikyo/TUX.ps1/refs/heads/dev/ressources/ps1.png" width="400">
 
 # Installation
 
-Use the [TUX installation](../../README.md) to install TUX.ps1.
+Use the [TUX installation](https://github.com/ubikyo/TUX) to install TUX.ps1.
