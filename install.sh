@@ -80,8 +80,6 @@ init_ps1() {
     if print_dialog "$SILENT" "Enable the PS1 prompt1" \
         "Replace the current prompt with TUX.ps1, using the MOTD colors."; then
 
-        if [ "$SILENT" = "yes" ]; then printf "\n"; fi
-
         print_msg "OK" "PS1" "Modifying the PS1 prompt"
         change_ps1
     else
