@@ -17,11 +17,10 @@ readonly RESET="\[\e[0m\]"
 # Change le prompt PS1
 build_ps1() {
     PS1=""
-    local separator=">"
+    local separator=""
     if [ "$1" = "true" ]; then
         PS1="${BACK_COLOR1}${FORE_COLOR1}   "
         PS1+="${BACK_COLOR2}${FORE_COLOR2}"
-        separator=""
     fi
     PS1+="${BACK_COLOR2}${FORE_COLOR1} \u "
     PS1+="${BACK_COLOR3}${FORE_COLOR3}${separator}"
