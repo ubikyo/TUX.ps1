@@ -106,7 +106,7 @@ main() {
 
     configure_nerd_fonts
 
-    print_header "Module PS1 installation"
+    printf '%bModule PS1 installation%b\n' "$COLOR_HIGHLIGHT_FG" "$COLOR_RESET"
 
     init_ps1
 
