@@ -106,7 +106,7 @@ main() {
 
     configure_nerd_fonts
 
-    print_header "Module PS1 installation\n"
+    print_header "Module PS1 installation"
 
     init_ps1
 
