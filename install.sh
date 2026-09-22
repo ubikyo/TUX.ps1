@@ -106,7 +106,12 @@ main() {
 
     configure_nerd_fonts
 
-    printf '%bModule PS1 installation%b\n' "$COLOR_HIGHLIGHT_FG" "$COLOR_RESET"
+    if [[ "$SILENT" == "no" ]] && has_dialog_terminal; then
+        # The interactive dialog supplies its own spacing.
+        printf '%bModule PS1 installation%b\n' "$COLOR_HIGHLIGHT_FG" "$COLOR_RESET"
+    else
+        print_header "Module PS1 installation\n"
+    fi
 
     init_ps1
 
